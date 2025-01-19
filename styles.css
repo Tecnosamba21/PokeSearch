@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20vh;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 img {
+    width: 2ch;
+}
+
+#search {
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Jersey 15';
+    padding: 2px;
+    width: 30vw;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Jersey 15';
+}
+
+.error {
+    background-color: red;
+}
+
+.sucess {
+    background-color: greenyellow;
+}
